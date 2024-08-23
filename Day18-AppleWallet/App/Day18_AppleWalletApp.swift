@@ -11,7 +11,7 @@ import SwiftUI
 struct Day18_AppleWalletApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WalletView()
         }
     }
 }

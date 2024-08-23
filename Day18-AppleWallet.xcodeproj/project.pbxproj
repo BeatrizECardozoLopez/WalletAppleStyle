@@ -8,23 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		FBAA5E312C778BF300431E3B /* Day18_AppleWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E302C778BF300431E3B /* Day18_AppleWalletApp.swift */; };
-		FBAA5E332C778BF300431E3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E322C778BF300431E3B /* ContentView.swift */; };
+		FBAA5E332C778BF300431E3B /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E322C778BF300431E3B /* WalletView.swift */; };
 		FBAA5E352C778BF600431E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAA5E342C778BF600431E3B /* Assets.xcassets */; };
 		FBAA5E382C778BF600431E3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAA5E372C778BF600431E3B /* Preview Assets.xcassets */; };
 		FBAA5E3F2C778D3600431E3B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E3E2C778D3600431E3B /* Transaction.swift */; };
 		FBAA5E412C778F6F00431E3B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E402C778F6F00431E3B /* Card.swift */; };
 		FBAA5E622C78CD7500431E3B /* TransactionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E612C78CD7500431E3B /* TransactionHistoryView.swift */; };
+		FBAA5E642C78DA6A00431E3B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E632C78DA6A00431E3B /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FBAA5E2D2C778BF300431E3B /* Day18-AppleWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day18-AppleWallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAA5E302C778BF300431E3B /* Day18_AppleWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18_AppleWalletApp.swift; sourceTree = "<group>"; };
-		FBAA5E322C778BF300431E3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBAA5E322C778BF300431E3B /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
 		FBAA5E342C778BF600431E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBAA5E372C778BF600431E3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FBAA5E3E2C778D3600431E3B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		FBAA5E402C778F6F00431E3B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		FBAA5E612C78CD7500431E3B /* TransactionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryView.swift; sourceTree = "<group>"; };
+		FBAA5E632C78DA6A00431E3B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +88,9 @@
 		FBAA5E432C77922400431E3B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FBAA5E322C778BF300431E3B /* ContentView.swift */,
+				FBAA5E322C778BF300431E3B /* WalletView.swift */,
 				FBAA5E612C78CD7500431E3B /* TransactionHistoryView.swift */,
+				FBAA5E632C78DA6A00431E3B /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,10 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAA5E332C778BF300431E3B /* ContentView.swift in Sources */,
+				FBAA5E332C778BF300431E3B /* WalletView.swift in Sources */,
 				FBAA5E312C778BF300431E3B /* Day18_AppleWalletApp.swift in Sources */,
 				FBAA5E3F2C778D3600431E3B /* Transaction.swift in Sources */,
 				FBAA5E622C78CD7500431E3B /* TransactionHistoryView.swift in Sources */,
+				FBAA5E642C78DA6A00431E3B /* CardView.swift in Sources */,
 				FBAA5E412C778F6F00431E3B /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
