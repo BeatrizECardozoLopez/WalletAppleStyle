@@ -13,6 +13,7 @@
 		FBAA5E382C778BF600431E3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAA5E372C778BF600431E3B /* Preview Assets.xcassets */; };
 		FBAA5E3F2C778D3600431E3B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E3E2C778D3600431E3B /* Transaction.swift */; };
 		FBAA5E412C778F6F00431E3B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E402C778F6F00431E3B /* Card.swift */; };
+		FBAA5E622C78CD7500431E3B /* TransactionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E612C78CD7500431E3B /* TransactionHistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FBAA5E372C778BF600431E3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FBAA5E3E2C778D3600431E3B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		FBAA5E402C778F6F00431E3B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FBAA5E612C78CD7500431E3B /* TransactionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				FBAA5E322C778BF300431E3B /* ContentView.swift */,
+				FBAA5E612C78CD7500431E3B /* TransactionHistoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				FBAA5E332C778BF300431E3B /* ContentView.swift in Sources */,
 				FBAA5E312C778BF300431E3B /* Day18_AppleWalletApp.swift in Sources */,
 				FBAA5E3F2C778D3600431E3B /* Transaction.swift in Sources */,
+				FBAA5E622C78CD7500431E3B /* TransactionHistoryView.swift in Sources */,
 				FBAA5E412C778F6F00431E3B /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
