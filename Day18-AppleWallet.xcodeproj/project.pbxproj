@@ -15,6 +15,7 @@
 		FBAA5E412C778F6F00431E3B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E402C778F6F00431E3B /* Card.swift */; };
 		FBAA5E622C78CD7500431E3B /* TransactionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E612C78CD7500431E3B /* TransactionHistoryView.swift */; };
 		FBAA5E642C78DA6A00431E3B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E632C78DA6A00431E3B /* CardView.swift */; };
+		FBAA5E662C78ED2600431E3B /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA5E652C78ED2600431E3B /* DragState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FBAA5E402C778F6F00431E3B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		FBAA5E612C78CD7500431E3B /* TransactionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryView.swift; sourceTree = "<group>"; };
 		FBAA5E632C78DA6A00431E3B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FBAA5E652C78ED2600431E3B /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				FBAA5E322C778BF300431E3B /* WalletView.swift */,
 				FBAA5E612C78CD7500431E3B /* TransactionHistoryView.swift */,
 				FBAA5E632C78DA6A00431E3B /* CardView.swift */,
+				FBAA5E652C78ED2600431E3B /* DragState.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAA5E662C78ED2600431E3B /* DragState.swift in Sources */,
 				FBAA5E332C778BF300431E3B /* WalletView.swift in Sources */,
 				FBAA5E312C778BF300431E3B /* Day18_AppleWalletApp.swift in Sources */,
 				FBAA5E3F2C778D3600431E3B /* Transaction.swift in Sources */,

@@ -33,7 +33,7 @@ enum CardType: String{
 
 #if DEBUG
 
-var cards = [
+var cardsData = [
     Card(name: "John Doe", type: .visa, number: "1234 5678 9123 4567", expirationDate: "09/26"),
     Card(name: "Jane Smith", type: .mastercard, number: "9876 5432 1098 7654", expirationDate: "05/25"),
     Card(name: "Bob Johnson", type: .amex, number: "2468 1357 8024 6913", expirationDate: "12/28"),
